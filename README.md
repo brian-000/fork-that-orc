@@ -25,11 +25,10 @@
 
   ## Questions
   Any questions can be directed at the primary author via: <br>
-  [GitHub](https://github.com/cory-hall) <br>
-  [Contact Me!](mailto:cory.c.hall@gmail.com)
+  [GitHub](https://github.com/brian-000) <br>
 
   ## Credits
-  Cory Hall
+  Brian Ortiz
 
   ## License
   Copyright 2022 Cory Hall
