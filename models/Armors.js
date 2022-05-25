@@ -1,8 +1,8 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-
+//creating Armor 
 class Armor extends Model {}
-
+//initializing
 Armor.init(
     {
         id: {
