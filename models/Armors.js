@@ -32,5 +32,5 @@ Armor.init(
         modelName: 'armor',
     }
 )
-
+//exporting
 module.exports = Armor;

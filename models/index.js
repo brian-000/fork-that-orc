@@ -39,5 +39,5 @@ Vote.belongsTo(User, {
     onDelete: 'SET NULL'
 });
 
-
+//exporting
 module.exports = { User, Weapons, Armors, Character, Vote };

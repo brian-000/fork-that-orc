@@ -36,5 +36,5 @@ Weapon.init(
         modelName: 'weapon',
     }
 );
-
+//exporting
 module.exports = Weapon;

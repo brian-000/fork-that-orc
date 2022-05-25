@@ -50,6 +50,6 @@ class User extends Model {
       modelName: 'user'
     }
   );
-  
+  //exporting
   module.exports = User;
   
