@@ -22,7 +22,7 @@ const wepPostHandler = async (event) => {
       'Content-Type': 'application/json'
     }
   });
-
+//checking response
   if (response.ok) {
     armPostHandler(event)
   } else (

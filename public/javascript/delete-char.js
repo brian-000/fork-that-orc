@@ -25,5 +25,5 @@ async function deleteCharHandler(event) {
     };
   };
 };
-
+//event listeners
 document.body.addEventListener('click', deleteCharHandler);

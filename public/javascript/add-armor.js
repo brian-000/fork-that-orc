@@ -19,7 +19,7 @@ const armPostHandler = async (event) => {
       'Content-Type': 'application/json'
     }
   });
-
+//checking response
   if (response.ok) {
     charPostHandler(event)
   } else {

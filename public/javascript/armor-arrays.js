@@ -67,5 +67,5 @@ const mageArmor = [
     rating: 100
   }
 ];
-
+//exporting
 module.exports = { warriorArmor, rogueArmor, mageArmor };

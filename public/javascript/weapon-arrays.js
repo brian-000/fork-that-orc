@@ -79,5 +79,5 @@ const mageWeapon = [
     rating: 100
   }
 ];
-
+//exporting
 module.exports = { warriorWeapon, rogueWeapon, mageWeapon };

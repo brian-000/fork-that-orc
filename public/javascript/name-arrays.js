@@ -43,5 +43,5 @@ const lastName = [
   'Simpson',
   'Durst'
 ];
-
+//exporting
 module.exports = { firstName, lastName };

@@ -135,7 +135,7 @@ const rollStatHandler = (event) => {
   intField.value = int;
 };
 
-
+//event listeners
 document.querySelector('.name-btn').addEventListener('click', randomNameHandler);
 document.querySelector('.roll-char').addEventListener('click', rollStatHandler);
 document.querySelector('.wep-btn').addEventListener('click', randomWepHandler);

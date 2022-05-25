@@ -27,7 +27,7 @@ const charPostHandler = async (event) => {
       'Content-Type': 'application/json'
     }
   });
-
+//checking response
   if (response.ok) {
     console.log('ADDED!');
     document.location.replace('/dashboard');

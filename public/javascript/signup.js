@@ -18,7 +18,7 @@ async function signupFormHandler(event) {
       }),
       headers: { 'Content-Type': 'application/json' }
     });
-
+//checking response
     if (response.ok) {
       document.location.replace('/dashboard');
     } else {
@@ -26,5 +26,5 @@ async function signupFormHandler(event) {
     }
   }
 }
-
+//event listener
 document.querySelector('#signup-form').addEventListener('submit', signupFormHandler);''
