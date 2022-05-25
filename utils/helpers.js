@@ -1,3 +1,4 @@
+//exporting
 module.exports = {
   // helper to format dates on document
   format_date: (date) => {
