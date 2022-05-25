@@ -1,6 +1,7 @@
+//importing
 const { Weapons } = require('../models');
-
-const weapondata = [
+//seeding for wepaonData
+const weaponData = [
     {
         weapon_name: 'Heavy Broadsword',
         weapon_class: 'Warrior',
@@ -38,7 +39,7 @@ const weapondata = [
         weapon_image: 'https://i.imgur.com/BekRLeT.png'
     }
 ];
-
-const seedWeapons = () => Weapons.bulkCreate(weapondata);
-
+//function call to seed wepaonData
+const seedWeapons = () => Weapons.bulkCreate(weaponData);
+//exporting
 module.exports = seedWeapons;

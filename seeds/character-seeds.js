@@ -1,5 +1,6 @@
+//require declaration
 const { Character } = require('../models')
-
+//creating character seeds.
 const characterdata = [
     {
         character_name: 'Jimmy Thiccus',
@@ -68,7 +69,7 @@ const characterdata = [
         character_armor: 4
     }
 ];
-
+//using imported function
 const seedCharacter = () => Character.bulkCreate(characterdata);
-
+//exporting
 module.exports = seedCharacter;

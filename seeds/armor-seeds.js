@@ -1,5 +1,6 @@
+//require declaration
 const { Armors } = require('../models');
-
+//creating Armor seeds.
 const armordata = [
     {
         armor_name: 'Heavy Chainmail',
@@ -32,7 +33,7 @@ const armordata = [
         armor_rating: 4
     }
 ];
-
+//using imported function
 const seedArmors = () => Armors.bulkCreate(armordata);
-
+//exporting
 module.exports = seedArmors;
