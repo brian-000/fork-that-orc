@@ -13,5 +13,5 @@ router.use('/users', userRoutes);
 router.use('/weapons', weaponRotes);
 router.use('/armors', armorRoutes);
 router.use('/create', createRoutes)
-
+//exporting
 module.exports = router;

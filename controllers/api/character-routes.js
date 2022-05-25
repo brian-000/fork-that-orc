@@ -120,5 +120,5 @@ router.delete('/:id', withAuth, (req, res) => {
         res.status(500).json(err);
     })
 })
-
+//exporting
 module.exports = router;
